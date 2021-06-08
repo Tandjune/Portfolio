@@ -419,12 +419,32 @@ section .title::after {
     width: 50%;
 }
 
-.skills .skills-content .right .php::before {
+.skills .skills-content .right .vjs::before {
     width: 40%;
 }
 
+.skills .skills-content .right .php::before {
+    width: 50%;
+}
+
 .skills .skills-content .right .mysql::before {
-    width: 70%;
+    width: 60%;
+}
+
+.skills .skills-content .right .postgres::before {
+    width: 60%;
+}
+
+.skills .skills-content .right .java::before {
+    width: 60%;
+}
+
+.skills .skills-content .right .fsharp::before {
+    width: 50%;
+}
+
+.skills .skills-content .right .python::before {
+    width: 40%;
 }
 
 
