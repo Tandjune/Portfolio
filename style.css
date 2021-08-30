@@ -750,7 +750,7 @@ footer {
 
 @media (max-width: 690px) {
     .max-width {
-        padding: 0 22px;
+        padding: auto 22px;
     }
     .home .home-content .text-2 {
         font-size: 55px;
