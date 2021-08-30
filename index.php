@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
+    <title>Florent Tnadjune Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -41,7 +41,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Florent Tandjune Tamoyem</div>
                 <div class="text-3">I <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <a href="#contact">Hire me</a>
             </div>
         </div>
     </section>
@@ -51,17 +51,19 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/profil.jpg" alt="">
+                    <img src="images/image.jpg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text"> I am Florent Tandjune Tamoyem and I <span class="typing2"></span> </div>
+                    <div class="text"> I am Florent Tandjune Tamoyem and
+                        <div>I <span class="typing2"></span></div>
+                    </div>
                     <p>I am currently doing a bachelor's degree in software engineering at the technical university of kaiserslautern, so I have already accumulated some knowledge in the software development process. <br> In fact, I am learning technologies
                         in parallel to my studies, especially web development technologies. So I have already done some small projects and I am learning new technologies every day to improve my programming skills. I hope to create professional and optimal
                         websites and applications in the future. <br> I am a very curious person, and I always try to understand the why of everything that is unknown to me. So I spend a lot of time learning things that are not always related to computer
                         science. I also spend time talking to people, because I believe that we can learn a lot from each other. <br> In my free time I like to listen to music or read books and, when the weather is good, I like to do sports outside, like
                         cycling, football or jogging
                     </p>
-                    <a href="./Lebenslauf1.pdf">Download CV</a>
+                    <a href="./Lebenslauf1.pdf" download="./Lebenslauf1.pdf">Download CV</a>
                 </div>
             </div>
         </div>
@@ -74,23 +76,22 @@
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
-                        <div class="text">web Design</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint provident ea asperiores excepturi, facilis cupiditate?</p>
+                        <div class="text">Web Development</div>
+                        <p>Thanks to my experience, I am able to build websites from scratch or using a framework</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text">Advertising</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint provident ea asperiores excepturi, facilis cupiditate?</p>
+                        <div class="text">web Designt</div>
+                        <p>Passionate about beautiful and well-made things, I can propose disgn for websites or web applications </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
-                        <div class="text">Web Development</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint provident ea asperiores excepturi, facilis cupiditate?
-                        </p>
+                        <div class="text">project managemen</div>
+                        <p>Thanks to my studies I was able to accumulate knowledge in project management</p>
                     </div>
                 </div>
             </div>
@@ -104,10 +105,11 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa in aliquid voluptates. Omnis neque iste at veniam, deserunt exercitationem reiciendis provident impedit quasi ipsam enim, cumque suscipit iusto voluptatum explicabo asperiores
-                        sint dolores. Rerum inventore culpa eaque, debitis nesciunt quam asperiores dolorum nemo minima ad quis ducimus optio ex praesentium minus excepturi aut repudiandae omnis est. Commodi, minima? Voluptatem, architecto!
+                    <p>Thanks to the courses and projects at the university I was able to acquire knowledge in IT project management, programming with languages like Java, Python and F# and relational database management systems like MySQL and PostgreSQL.
+                        In addition to the courses I am taking at university, I am also learning web development technologies. So I have already made small website projects using HTML, CSS, JavaSript and PHP. I am also learning to work with frameworks
+                        such as Vue.js, Node.js and Django.
                     </p>
-                    <a href="#">Read more</a>
+                    <!-- <a href="#">Read more</a> -->
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -229,7 +231,7 @@
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, delectus doloribus. Aspernatur explicabo libero architecto quae sed. Ipsum, a vero?</p>
+                    <p>If you found my profile interesting and want to work with me or get in touch with me, you can leave me a message </p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
@@ -256,20 +258,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="contact.php" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="text" placeholder="Email" required>
+                                <input type="text" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="subject" required>
+                            <input type="text" name="subject" placeholder="subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea placeholder="Describe Project..." required></textarea>
+                            <textarea name="message" placeholder="Describe Project..." required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Send message</button>
