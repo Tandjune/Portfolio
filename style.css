@@ -188,7 +188,7 @@ footer {
 .contact .contact-content {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
 }
 
@@ -341,6 +341,10 @@ section .title::after {
 
 .skills .title::after {
     content: "what i know";
+}
+
+.skills .skills-content {
+    align-items: center;
 }
 
 .skills .skills-content .column {
