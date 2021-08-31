@@ -618,6 +618,7 @@ section .title::after {
 .contact .right .button {
     height: 47px;
     width: 170px;
+    margin-top: 33px;
 }
 
 .contact .right button {
