@@ -413,19 +413,19 @@ section .title::after {
 }
 
 .skills .skills-content .right .html::before {
-    width: 90%;
-}
-
-.skills .skills-content .right .css::before {
     width: 80%;
 }
 
+.skills .skills-content .right .css::before {
+    width: 70%;
+}
+
 .skills .skills-content .right .js::before {
-    width: 50%;
+    width: 60%;
 }
 
 .skills .skills-content .right .vjs::before {
-    width: 40%;
+    width: 50%;
 }
 
 .skills .skills-content .right .php::before {
@@ -445,11 +445,11 @@ section .title::after {
 }
 
 .skills .skills-content .right .fsharp::before {
-    width: 50%;
+    width: 60%;
 }
 
 .skills .skills-content .right .python::before {
-    width: 40%;
+    width: 50%;
 }
 
 
