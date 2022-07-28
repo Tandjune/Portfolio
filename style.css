@@ -425,7 +425,7 @@ section .title::after {
 }
 
 .skills .skills-content .right .vjs::before {
-    width: 50%;
+    width: 60%;
 }
 
 .skills .skills-content .right .php::before {
@@ -450,6 +450,10 @@ section .title::after {
 
 .skills .skills-content .right .python::before {
     width: 50%;
+}
+
+.skills .skills-content .right .django::before {
+    width: 40%;
 }
 
 
