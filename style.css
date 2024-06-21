@@ -436,6 +436,10 @@ section .title::after {
   width: 60%;
 }
 
+.skills .skills-content .right .kotlin::before {
+  width: 60%;
+}
+
 .skills .skills-content .right .fsharp::before {
   width: 60%;
 }
